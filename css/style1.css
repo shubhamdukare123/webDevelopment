@@ -1,0 +1,63 @@
+/* *{
+    color : rgb(14, 154, 210);
+    background-color: #fff
+}
+h3,h1{
+    color:maroon;
+} */
+#login{
+    color:white;
+    background-color: aqua;
+}
+#signup{
+    color: white;
+    background-color:midnightblue
+}
+.upvote{
+    color:white;
+    background-color: blueviolet;
+}
+div[id=myId] p{
+    color:rgb(81, 4, 52);
+}
+div p{
+    color:blue;
+}
+.upvote + button{
+    text-decoration : underline;
+}
+/* p + h3{
+    text-decoration : underline;
+} */
+span>button{
+    color : green;
+}
+
+div>input{
+    background-color: aqua;
+}
+
+/* input[type="text"]{
+    background-color : cyan 
+}
+input[type="password"]{
+    background-color : black;
+} */
+input[type]{
+    background-color : black;
+}
+button:hover{
+    background-color: red;
+    color : white;
+}
+h3:hover{
+    text-decoration:underline;
+}
+button:active{
+    color:purple;
+    background-color: pink;
+}
+p:active{
+    font-weight: 100;
+    background-color: green;
+}
