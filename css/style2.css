@@ -1,0 +1,15 @@
+/* div:nth-of-type(2n){
+    color : aqua;
+    background-color: red;
+} */
+div ::first-letter{
+    background-color: aqua;
+}
+/* p::first-line{
+    font-weight: 500;
+    color : green;
+    background-color: black ;
+} */
+p::selection{
+    background-color: purple;
+}

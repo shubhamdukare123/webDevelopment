@@ -61,3 +61,7 @@ p:active{
     font-weight: 100;
     background-color: green;
 }
+input[type="radio"]:checked + label{
+    color  : red;
+    text-decoration : underline;
+}
