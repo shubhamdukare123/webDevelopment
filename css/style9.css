@@ -1,0 +1,19 @@
+div{
+    height: 100px;
+    width: 500px;
+    background-color: lime;
+    border: 2px solid rgb(50, 50, 50);
+    transition: width 2s ease-in 2ms;
+    margin: 200px auto;
+    
+    /* transform: rotate(180deg); */
+ 
+}
+   
+div:hover{
+    width: 300px;
+    transform: scale(0.5);
+    /* transform: rotate(45deg); */
+   background-color: black;
+   color:white;
+}
