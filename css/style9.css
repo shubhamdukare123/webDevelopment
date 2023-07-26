@@ -1,19 +1,28 @@
-div{
+#name{
     height: 100px;
     width: 500px;
     background-color: lime;
     border: 2px solid rgb(50, 50, 50);
-    transition: width 2s ease-in 2ms;
+    /* transition: width 2s ease-in 2ms;
     margin: 200px auto;
+    transform: translateX(300px); */
     
     /* transform: rotate(180deg); */
- 
+    margin: 50px auto;
+    transform: skew(45deg);
 }
    
-div:hover{
+/* div:hover{
     width: 300px;
     transform: scale(0.5);
-    /* transform: rotate(45deg); */
+    /* transform: rotate(45deg); 
    background-color: black;
-   color:white;
+   color:white; 
+}*/
+#cs{
+    height: 300px;
+    width: 300px;
+    background-color: maroon;
+    color: white;
+    transform: rotate(45deg) translateX(300px) scale(2);
 }
