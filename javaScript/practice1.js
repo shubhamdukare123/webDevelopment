@@ -9,4 +9,4 @@ let str = "ILOVECODING";
 console.log(str.replace("LOVE", "Do")); //11-2 => 9
 console.log("Repeated : " , str.repeat(3));
 let msg1 = "apnaapnaapna"
-console.log(msg1.replace("apna","Shubham"))
+console.log(msg1.replace("apna","Shubham"));
