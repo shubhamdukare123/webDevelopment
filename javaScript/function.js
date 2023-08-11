@@ -39,4 +39,8 @@ console.log(`sum is : ${sum}`);
 {
     let a = 0;
 }
-console.log(a);
+
+const sumfun = function(num1, num2) {
+    return num1 + num2 ;
+}
+console.log(sumfun);
