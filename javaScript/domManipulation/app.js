@@ -20,5 +20,5 @@
 
 let para = document.querySelector(".para");
 let div = document.querySelector("#divId");
-let body = document.querySelector("body");
+let body= document.querySelector("body");
 
