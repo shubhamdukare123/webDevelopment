@@ -5,8 +5,8 @@ body{
     height: 200px;
     width: 200px;
     border-radius: 20%;
-    border: 5px solid black;
-    margin: 2.5em;
+    border: 10px solid black;
+    margin: 2.5rem;
 }
 
 .btn-container{
@@ -26,6 +26,9 @@ body{
 .purple{
     background-color: #819ff9;
 }
-.first-line{
-    
+.flash{
+    background-color: white;
+}
+.userFlash{
+    background-color: green;
 }
